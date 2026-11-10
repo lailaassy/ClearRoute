@@ -7,20 +7,24 @@ Built by **Laila Assy, Prithika Paraneetharan, and Daisy Grachev**.
 
 ClearRoute is a mapping project built around a simple question: how can navigation be easier to use for people with low vision? We focused on readable maps, forgiving search, spoken directions, and a less cluttered interface.
 
+![ClearRoute map with floating search controls and navigation buttons](clearroute-interface.png)
 
 ## Designed around accessibility
 
 ### A clearer map
 High-contrast map styling helps distinguish roads, water, buildings, and points of interest. Our design explores the Okabe–Ito palette and differences in brightness, rather than relying on colour alone.
 
+![High-contrast map showing roads, buildings, water, and points of interest](high-contrast-map.png)
 
 ### Search that gives you some room
 Partial street names, abbreviation expansion, word-order-independent matching, and fuzzy matching help users find a destination without needing to type an exact name. Text-to-speech provides an audio channel for map labels and navigation instructions.
 
+![Search suggestions for a partially entered street name](search-autocomplete.png)
 
 ### One trip, multiple stops
 Users can add, reorder, and remove stops in one workflow, with an organized overview and arrival cues along the route.
 
+![ClearRoute interface for planning a trip with several stops](multiple-stops.png)
 
 ## Under the hood
 
